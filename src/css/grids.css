@@ -37,7 +37,7 @@
   margin-top: 60px;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-  background-color: aqua;
+  border: 3px solid #000;
 }
 
 .container .first-screen .item-wrapper .header {
