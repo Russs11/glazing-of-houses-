@@ -65,3 +65,13 @@
   border: 2px solid #000;
   background-color: blueviolet;
 }
+
+.container .first-screen .item-wrapper .item_4 {
+  grid-row: span 2;
+}
+
+.container .first-screen .item-wrapper .item_9 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1 / 4;
+}
