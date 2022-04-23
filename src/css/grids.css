@@ -75,7 +75,7 @@
 }
 
 .container .first-screen .item-wrapper .item_2 {
-  background-color: #fb9921;
+  background-color: #fb8321;
 }
 
 .container .first-screen .item-wrapper .item_3 {
@@ -91,11 +91,15 @@
 }
 
 .container .first-screen .item-wrapper .item_5 {
-  background-color: #6cec31;
+  background-color: #89dd55;
 }
 
 .container .first-screen .item-wrapper .item_6 {
-  background-color: darkmagenta;
+  background-color: #ea41ac;
+}
+
+.container .first-screen .item-wrapper .item_7 {
+  background-color: #f6a731;
 }
 
 .container .first-screen .item-wrapper .item_8 {
