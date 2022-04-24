@@ -3,6 +3,10 @@
     src: url("../fonts/Roboto_Condensed/RobotoCondensed-Bold.ttf");
 }
 
+@font-face {
+    font-family: "roboto_condensed_regular";
+    src: url("../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf");
+}
 
 * {
     box-sizing: border-box;
@@ -51,21 +55,21 @@
                 align-items: center;
                 height: 100%;
                 width: 100%;
-                border: 2px solid #000;
+                border: 1px solid #000;
                 // background-color: blueviolet;
 
             }
 
             .item_1 {
-                background-color: #9862D3;
+                background-color: #9d62dd;
             }
 
             .item_2 {
-                background-color: rgb(251, 131, 33);
+                background-color: #f78b48;
             }
 
             .item_3 {
-                background-color: #48a3d7;
+                background-color: #589dc4;
             }
 
             .item_4 {
@@ -77,28 +81,48 @@
             }
 
             .item_5 {
-                background-color: rgb(137, 221, 85);
+                background-color: #9ccc3d;
             }
 
             .item_6 {
-                background-color: rgb(234, 65, 172);
+                background-color: #df59ca;
             }
 
             .item_7 {
-                background-color: rgb(246, 167, 49);
+                background-color: #ffb54e;
             }
 
-            .item_8 {
-                grid-column: 4 / -1;
-                background-color: rgb(234, 65, 172);
+            .item_1,
+            .item_2,
+            .item_3,
+            .item_4,
+            .item_5,
+            .item_6,
+            .item_7 {
+                display: flex;
+                justify-content: center;
                 font-family: "roboto_condensed_bold";
                 font-style: normal;
                 font-weight: 700;
                 font-size: 18px;
-                line-height: 75px;
+                line-height: 24px;
                 text-transform: uppercase;
 
                 color: #FFFFFF;
+            }
+
+            .item_8 {
+                grid-column: 4 / -1;
+                background-color: #df59ca;
+                font-family: "roboto_condensed_regular";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 24px;
+                text-transform: uppercase;
+                padding-left: 18px;
+                color: #FFFFFF;
+
 
             }
 
@@ -134,7 +158,12 @@
             }
 
             .item_10 {
+                display: grid;
+                grid-template-columns: 2fr 1fr;
+                grid-template-rows: max-content;
+                
                 height: fit-content;
+                background-color: #9d62dd;
 
             }
 
