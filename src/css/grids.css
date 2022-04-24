@@ -48,10 +48,10 @@
 .container .first-screen .item-wrapper .header {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
-  -ms-grid-rows: 60px 60px;
-      grid-template-rows: 60px 60px;
+  -ms-grid-columns: (1fr)[3] 260px;
+      grid-template-columns: repeat(3, 1fr) 260px;
+  -ms-grid-rows: 60px 60px 60px;
+      grid-template-rows: 60px 60px 60px;
   border: 2px solid #000;
 }
 
@@ -104,6 +104,14 @@
 
 .container .first-screen .item-wrapper .item_8 {
   grid-column: 4 / -1;
+  background-color: #ea41ac;
+  font-family: "roboto_condensed_bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 75px;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
 
 .container .first-screen .item-wrapper .item_9 {
